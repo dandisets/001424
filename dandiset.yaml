@@ -3,6 +3,7 @@
 # and obtained from the dandiarchive.
 '@context': 
   https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.9/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -19,9 +20,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 20643010152
-  numberOfFiles: 12
-  numberOfSubjects: 5
+  numberOfBytes: 42760228895
+  numberOfFiles: 20
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -32,8 +33,8 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - ProcessingModule
-citation: Lecoq, Jerome (2025) Predictive Processing Community - SLAP2 (Version draft)
-  [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001424/draft
+citation: Lecoq, Jerome (2026) Allen Institute OpenScope - Predictive Processing (SLAP2)
+  (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001424/draft
 contributor:
 - affiliation: []
   email: jeromel@alleninstitute.org
@@ -45,15 +46,18 @@ contributor:
 dateCreated: '2025-04-22T04:30:00.963991+00:00'
 description: This dataset contains data acquired on the SLAP2 platform as part of
   the OpenScope predictive processing community project
+ethicsApproval: []
 id: DANDI:001424/draft
 identifier: DANDI:001424
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001424/versions/draft/assets/
-name: Predictive Processing Community - SLAP2
+name: Allen Institute OpenScope - Predictive Processing (SLAP2)
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.9
 url: https://dandiarchive.org/dandiset/001424/draft
 version: draft
+wasGeneratedBy: []
